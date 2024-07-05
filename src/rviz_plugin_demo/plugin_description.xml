@@ -1,0 +1,17 @@
+<!-- 
+    path：动态链接库路径
+    name：插件名称
+    type：插件类
+    base_class_type：基类
+    description：功能描述
+-->
+<library path="rviz_plugin_demo"> 
+    <class 
+        name="rviz_plugin_demo/Demo"
+        type="rviz_plugin_demo::Widget" 
+        base_class_type="rviz_common::Panel">
+        <description>
+            A panel demo.
+        </description>
+    </class>
+</library>
